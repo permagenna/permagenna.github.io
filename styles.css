@@ -11,8 +11,8 @@
   grid-gap: 10px;
   grid-template-areas:  "header		header"
     										"left		right";
-  grid-template-columns: 30% 70%;
-  grid-template-rows: 150px 200px 600px 200px;
+  grid-template-columns: 30% 70%; 
+  background-color: teal;
   
 }
 
@@ -29,10 +29,11 @@
 
 .right {
   margin-top: 50px;
-  background-color: beige;
+  background-color: white;
   grid-area: right;
   height:1800px;
   padding:20px;
+  margin-right: 40px;
 }
 
 .contact {
@@ -59,7 +60,7 @@ h2 {
 }
 
 header {
-  background-color: teal;  
+  background-color: navy;  
   text-align: center;
   color: white;  
   height: 200px;
@@ -73,6 +74,11 @@ header {
   border: none;
   height: 4px;
   background-color: #333; /* Modern Browsers */
+}
+
+.pad {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .flex {
@@ -89,5 +95,22 @@ header {
 
 }
 
+.year {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
 
+.details {
+  margin-right  : 130px;
+}
+
+.details2 {
+  margin-right  : 174px;
+}
+
+.details3 {
+  margin-right  : 106px;
+}
 
